@@ -210,10 +210,11 @@
             Antes de comenzar... ¿tú me amas?
         </h2>
 
+        <!-- IMAGEN CAMBIADA PARA VERCEL -->
         <img
             id="imagen"
             class="imagen"
-            src="{{ url_for('static', filename='images/pocoyo.png') }}"
+            src="/static/images/pocoyo.png"
             alt="Pocoyo">
 
         <div class="botones" id="botones">
@@ -239,8 +240,9 @@
     ============================================================
     */
 
-    const pocoyo = "{{ url_for('static', filename='images/pocoyo.png') }}";
-    const pocoyoTriste = "{{ url_for('static', filename='images/imagen2.png') }}";
+    // RUTAS DE LAS IMÁGENES PARA VERCEL
+    const pocoyo = "/static/images/pocoyo.png";
+    const pocoyoTriste = "/static/images/imagen2.png";
 
 
     /*
@@ -356,6 +358,8 @@
                 </p>
                 `,
 
+                "",
+
                 pocoyoTriste
             );
 
@@ -375,6 +379,8 @@
                 </p>
                 `,
 
+                "",
+
                 pocoyoTriste
             );
 
@@ -390,7 +396,7 @@
             <p class="centrado">
                 Gracias por haber leído todo esto.
                 Lo importante es que siempre seas sincera
-                con lo que sientes. 
+                con lo que sientes.
             </p>
             `,
 
@@ -1071,7 +1077,7 @@
                 </h2>
 
                 <p class="pregunta-final">
-                    ¿Te gustaría ser mi novia? 
+                    ¿Te gustaría ser mi novia?
                 </p>
 
                 <div class="botones">
@@ -1166,7 +1172,7 @@
             <h1>¡Feliz día! 💞</h1>
 
             <h2>
-                Está bien 
+                Está bien
             </h2>
 
             <p class="centrado">
@@ -1202,7 +1208,7 @@
             <h1>¡Feliz día! 💞</h1>
 
             <h2>
-                Gracias por llegar hasta aquí 
+                Gracias por llegar hasta aquí
             </h2>
 
             <p class="centrado">
